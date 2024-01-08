@@ -62,7 +62,8 @@ h1, h2, p {
     align-items: center;
 }
 
-figcaption {
+.grid-container div span {
+    display: block;
     text-align: center;
 }
 
