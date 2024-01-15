@@ -34,14 +34,6 @@ div img {
 }
 
 
-@media screen and (min-width: 998px) {
-    div {
-        width: 30vw;
-        display: inline-block;
-    }
-
-}
-
 @media screen and (min-width: 772px) {
     div {
         width: 45vw;
@@ -49,7 +41,15 @@ div img {
     }
 
     img {
-        max-height: 30vw;
+        max-height: 30vh;
+    }
+
+}
+
+@media screen and (min-width: 998px) {
+    div {
+        width: 30vw;
+        display: inline-block;
     }
 
 }
