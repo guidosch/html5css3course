@@ -1,64 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Final Project</title>
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
 </head>
-
 <body>
-  <header>
-    <h1 id="top">Vacation pictures</h1>
-  </header>
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
 
-  <main>
-    <p>Some pictures from my vatation tripps to Jeriocacare in Brazil and France, Holland.</p>
-    <div class = "grid">
-        <figure>
-        <img src="images/beach.jpg" alt="Lonly beach in south of france">
-        <figcaption>Red</figcaption>
-        </figure>
-        <figure>
-        <img src="images/beachBar.jpg" alt="Bar at the beach" >
-        <figcaption>Orange</figcaption>
-        </figure>
-        <figure>
-        <img src="images/beachWithGirl.jpg" alt="Girl standing at the beach" >
-        <figcaption>Yellow</figcaption>
-        </figure>
-        <figure>
-        <img src="images/beackHouseInHolland.jpg" alt="Beach restaurant in Holland" >
-        <figcaption>Green</figcaption>
-        </figure>
-        <figure>
-        <img src="images/culNuBeer.jpg" alt="Beer bottle at table" >
-        <figcaption>Blue</figcaption>
-        </figure>
-        <figure>
-        <img src="images/drinkBoots.jpg" alt="Drink boots at the beach" >
-        <figcaption>Indigo</figcaption>
-        </figure>
-        <figure>
-        <img src="images/endlessBeachHolland.jpg" alt="Endless beach in Holland" >
-        <figcaption>Purple</figcaption>
-        </figure>
-        <figure>
-        <img src="images/foilAndBoardOnly.jpg" alt="Wing foil board in action" >
-        <figcaption>Pink</figcaption>
-        </figure>
-        <figure>
-        <img src="images/cyclingPathHolland.jpg" alt="Cycling path in Holland" >
-        <figcaption>White</figcaption>
-        </figure>
-    </div>
-  </main>
-
-  <footer>
-    <a href="#top">Jump to the Top</a>
-  </footer>
 </body>
-
 </html>
